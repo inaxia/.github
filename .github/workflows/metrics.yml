@@ -52,3 +52,9 @@ jobs:
           # plugin_repositories_affiliations: owner
           # plugin_repositories_batch: 100
           plugin_contributors: yes
+          plugin_contributors_categories: |
+      {
+        "📚 Documentation": ["README.md", "docs/**"],
+        "💻 Code": ["source/**", "src/**"],
+        "#️⃣ Others": ["*"]
+      }
