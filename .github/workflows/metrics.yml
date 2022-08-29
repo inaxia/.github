@@ -51,5 +51,9 @@ jobs:
           # plugin_repositories: yes
           # plugin_repositories_affiliations: owner
           # plugin_repositories_batch: 100
-
-
+          filename: metrics.plugin.people.repository.svg
+          base: ""
+          template: repository
+          repo: metrics
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers, sponsors
